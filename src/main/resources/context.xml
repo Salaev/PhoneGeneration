@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:properties/ALLproperties.properties"/>
+    <!--<context:annotation-config/>-->
+
+    <bean id="number" class="com.phone.model.Number">
+        <constructor-arg ref="txtloadfile"/>
+        <property name="writeFiles" ref="writefiles"/>
+    </bean>
+
+    <bean id="txtloadfile" class="com.phone.document.TXTLoadFile">
+        <property name="fileName" value="${LinkGeneral}"/>
+    </bean>
+
+
+    <bean id="writefiles" class="com.phone.document.TXTWriteFile">
+        <property name="linkTerminalCatalog" value="${LinkTerminalCatalog}"/>
+        <property name="linkFileGenerel" value="${LinkGeneral}"/>
+    </bean>
+
+    <bean id ="copyFile" class="com.phone.document.TXTCopy">
+        <property name="linkTerminalCatalog" value="${LinkTerminalCatalog}"/>
+        <property name="linkTerminalCatalogCopy" value="${LinkTerminalCatalogCopy}"/>
+
+    </bean>
+
+    <bean id="check" class="com.phone.document.CheckPhoneDB">
+        <property name="oracleDAO" ref="oracleDAOtf2_ri"/>
+        <property name="oracleDAO2" ref="oracleDAOtf2_stock"/>
+    </bean>
+
+    <bean id="oracleDAOtf2_ri" class="com.phone.connection.OracleDAO">
+        <property name="dataSource" ref="dataSourcetf2_ri"/>
+
+    </bean>
+
+    <bean id="oracleDAOtf2_stock" class="com.phone.connection.OracleDAO">
+        <property name="dataSource" ref="dataSourcetf2_stock"/>
+
+    </bean>
+
+    <bean id="dataSourcetf2_ri" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${ri.username}"/>
+        <property name="password" value="${ri.password}"/>
+    </bean>
+
+    <bean id="dataSourcetf2_stock" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${stock.username}"/>
+        <property name="password" value="${stock.password}"/>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,229 @@
+.form-container {
+    border: 1px solid #f2e3d2;
+    background: #c9b7a2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
+    background: -webkit-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -moz-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -ms-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -o-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background-image: -ms-linear-gradient(top, #f2e3d2 0%, #c9b7a2 100%);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    min-width:400px;
+    padding:15px;
+    width:300px;
+
+    margin: auto
+
+}
+
+.form-containerClean {
+    border: 1px solid #f2e3d2;
+    background: #c9b7a2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
+    background: -webkit-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -moz-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -ms-linear-gradient(top, #f2e3d2, #c9b7a2);
+    background: -o-linear-gradient(top, #f2e3d2, #c9b7a2);
+    /*background-image: -ms-linear-gradient(top, #f2e3d2 0%, #c9b7a2 100%);*/
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    min-width:400px;
+    padding:15px;
+    width:150px;
+
+    margin: auto
+
+}
+.form-field {
+    border: 1px solid #c9b7a2;
+    background: #f3e4d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #523f32;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    font-size: 12pt; /* Размер шрифта в пунктах */
+    padding:6px;
+    margin-bottom:6px;
+    width:280px;
+}
+
+.form-fieldBox {
+    border: 1px solid #c9b7a2;
+    background: #f3e4d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #523f32;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    font-size: 12pt; /* Размер шрифта в пунктах */
+    padding:6px;
+    margin-bottom:6px;
+    width:20px;
+}
+.form-field:focus {
+    background: #fff;
+    color: #725129;
+}
+
+.form-fieldBox:focus {
+    background: #fff;
+    color: #725129;
+}
+.form-container h2 {
+    text-shadow: #fdf2e4 0 1px 0;
+    font-size:22px;
+    margin: 0 0 10px 0;
+    font-weight:bold;
+    text-align:center;
+}
+.form-title {
+    margin-bottom:10px;
+    color: #7e5335;
+    text-shadow: #fdf2e4 0 1px 0;
+
+}
+.form-titleNum {
+    margin-bottom:10px;
+    color: #7e5335;
+    text-shadow: #fdf2e4 0 1px 0;
+    letter-spacing: 1em;
+}
+.submit-container {
+    margin:8px 0;
+    text-align:right;
+}
+.submit-button {
+    border: 1px solid #447314;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    text-shadow: #addc7e 0 1px 0;
+    color: #31540c;
+    font-family: helvetica, serif;
+    padding: 8.5px 18px;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.submit-button:hover {
+    border: 1px solid #447314;
+    text-shadow: #31540c 0 1px 0;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    color: #fff;
+}
+.submit-button:active {
+    text-shadow: #31540c 0 1px 0;
+    border: 1px solid #447314;
+    background: #8dc059;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+    background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+    background: -moz-linear-gradient(top, #6aa436, #8dc059);
+    background: -ms-linear-gradient(top, #6aa436, #8dc059);
+    background: -o-linear-gradient(top, #6aa436, #8dc059);
+    background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+    color: #fff;
+}
+
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox {
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 17px;
+    height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+    cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+    position: absolute;
+    opacity: 0;
+}
+.checkbox:not(checked) + label {
+    position: relative; /* будем позиционировать псевдочекбокс относительно label */
+    padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 50px;
+    height: 26px;
+    border-radius: 13px;
+    background: #CDD1DA;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+    background: #9FD468;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+    left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
